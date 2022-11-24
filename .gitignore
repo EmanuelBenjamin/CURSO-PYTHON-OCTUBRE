@@ -1,6 +1,5 @@
 venv
-__pycache__
 borrar.__pycache__
+__pycache__
 alembic
 alembic.ini
-
