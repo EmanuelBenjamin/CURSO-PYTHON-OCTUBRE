@@ -14,7 +14,7 @@ def saludar(nombre):
 def verificar_edad(edad):
     return f"Tienes {edad} a;os"
 
-@app.route("/users", methods=['POST', 'GET'])
+@app.route("/users", methods=['POST'])
 def store_user():
     return 'Se guardo el usuario'
 
